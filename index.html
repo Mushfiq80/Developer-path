@@ -21,14 +21,15 @@
         <img src="/assets/Group.png" alt="">
         <h1>"In the near future, I hope to become a Developer"</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, laborum!</p>
-        <button class="btn-secondary">Contact with me</button>
+        <button class="btn-secondary" onclick="scrollToFooter()">Contact with me</button>
     </section>
 
     <main>
         <!-- why web development -->
         <section class="web-dev">
             <h2>Why Web Development??</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae asperiores natus obcaecati alias ipsum unde ab modi accusantium ut quisquam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae asperiores natus obcaecati alias
+                ipsum unde ab modi accusantium ut quisquam.</p>
 
             <div class="cause1">
                 <div class="cause-left">
@@ -77,33 +78,35 @@
         <!-- My Current Target  -->
         <section class="target">
             <h2>My Current Target</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in impedit itaque commodi suscipit mollitia assumenda debitis aliquid architecto aspernatur!</p>
-            <div class="cards">
-                <div class="card card-bg-1">
-                    <img src="/assets/html.png" alt="">
-                    <h2>HTML</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
-                    <a href="https://www.w3schools.com/html/">Learn More</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in impedit itaque commodi suscipit
+                    mollitia assumenda debitis aliquid architecto aspernatur!</p>
+                <div class="cards">
+                    <div class="card card-bg-1">
+                        <img src="/assets/html.png" alt="">
+                        <h2>HTML</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quo.</p>
+                        <a href="https://www.w3schools.com/html/">Learn More</a>
+                    </div>
+                    <div class="card card-bg-2">
+                        <img src="/assets/css.png" alt="">
+                        <h2>CSS</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum,</p>
+                        <a href="https://www.w3schools.com/css/">Learn More</a>
+                    </div>
+                    <div class="card card-bg-3">
+                        <img src="/assets/js.png" alt="">
+                        <h2>JavaScript</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, officia?</p>
+                        <a href="https://javascript.info/">Learn More</a>
+                    </div>
                 </div>
-                <div class="card card-bg-2">
-                    <img src="/assets/css.png" alt="">
-                    <h2>CSS</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum,</p>
-                    <a href="https://www.w3schools.com/css/">Learn More</a>
-                </div>
-                <div class="card card-bg-3">
-                    <img src="/assets/js.png" alt="">
-                    <h2>JavaScript</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, officia?</p>
-                    <a href="https://javascript.info/">Learn More</a>
-                </div>
-            </div>
         </section>
 
         <!-- My Next Target  -->
         <section class="next-target">
             <h2>My Next Target</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text.</p>
 
             <div class="target-tech">
                 <div><img src="/assets/react.png" alt=""></div>
@@ -119,7 +122,8 @@
                 <div><img src="/assets/nodejs.png" alt=""></div>
                 <div>
                     <h2>NodeJs</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolores hic, sunt in expedita natus.
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolores hic, sunt in expedita
+                        natus.
                     </p>
                     <a href="https://nodejs.org/en">Learn More</a>
                 </div>
@@ -148,7 +152,7 @@
     </main>
 
     <!-- Footer part bottom part only  -->
-    <footer>
+    <footer id="footer">
         <h3>An Open Commitment by Saleheen</h3>
         <div>
             <a href="https://www.facebook.com/" target="_blank"><img src="/assets/facebook.png" alt="facebook"></a>
@@ -157,6 +161,13 @@
                     alt="linkedin"></a>
         </div>
     </footer>
+
+    <script>
+        function scrollToFooter() {
+            const footer = document.getElementById('footer');
+            footer.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 
 </html>

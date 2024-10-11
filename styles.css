@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: underline;
+    color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -63,7 +71,8 @@ header {
     cursor: pointer;
 }
 
-.no-style{
+
+.no-style {
     text-decoration: none;
     color: inherit;
 }
@@ -186,6 +195,11 @@ main {
     color: rgb(13, 19, 33);
 }
 
+.card>h4 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .card-bg-1 {
     background-color: rgba(255, 76, 30, 0.05);
     padding: 40px;
@@ -234,7 +248,7 @@ main {
     margin-top: 50px;
 }
 
-.support>p{
+.support>p {
     color: white;
 }
 

@@ -197,6 +197,7 @@ main {
     color: azure;
     border-radius: 10px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .support input {
@@ -210,4 +211,15 @@ main {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+/* Footer style  */
+footer{
+    margin-top: 80px;
+    border-radius: 16px;
+    background-color: rgba(11, 17, 33, 0.03); ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 0px;
 }
